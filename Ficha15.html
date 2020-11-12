@@ -78,7 +78,7 @@
                 margin-top: 64px;
                 margin-left: 0px;
             }
-            12.5%, 25%, 37.5%, 50%, 62.5%{
+            12.5%,25%, 37.5%, 50%, 62.5%{
                 width: 48px;
                 height: 48px;
                 margin-top: 64px;
@@ -117,7 +117,32 @@
                 margin-left: 64px;
             }
         }
-           
+        @keyframes animate3 {
+            0%, 12.5%{
+                width: 48px;
+                height: 48px;
+                margin-top: 0px;
+                margin-left: 64px;
+            }
+            25%{
+                width: 48px;
+                height: 112px;
+                margin-top: 0px;
+                margin-left: 64px;
+            }
+            37.5%, 50%, 62.5%, 75%, 87.5%{
+                width: 48px;
+                height: 48px;
+                margin-top: 64px;
+                margin-left: 64px;
+            }
+            100%{
+                width: 112px;
+                height: 48px;
+                margin-top: 64px;
+                margin-left: 0px;
+            }
+        }
         .loader{
             height: 100px;
             width: 95px;
